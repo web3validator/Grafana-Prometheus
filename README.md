@@ -36,7 +36,7 @@ cd ~/Grafana-Prometheus
 ## Створюємо контейнер
 ```
 docker swarm init
-docker stack deploy -c Grafana-Prometheus/docker-compose.yml monitoring
+docker stack deploy -c ~/Grafana-Prometheus/docker-compose.yml monitoring
 
 ```
 ## 
