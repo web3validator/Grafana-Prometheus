@@ -28,10 +28,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
 ## Завантажуємо docker-compose.yml
 ```
+cd ~
+git clone https://github.com/cybernekit/Grafana-Prometheus.git
+cd ~/Grafana-Prometheus
 
 ```
 ## Створюємо контейнер
 ```
 docker swarm init
+docker stack deploy -c Grafana-Prometheus/docker-compose.yml monitoring
 
 ```
+## 
