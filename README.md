@@ -26,3 +26,12 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
 ```
+## Завантажуємо docker-compose.yml
+```
+
+```
+## Створюємо контейнер
+```
+docker swarm init
+
+```
