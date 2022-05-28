@@ -33,10 +33,16 @@ git clone https://github.com/cybernekit/Grafana-Prometheus.git
 cd ~/Grafana-Prometheus
 
 ```
+![Screenshot from 2022-05-28 13-24-48](https://user-images.githubusercontent.com/59205554/170821373-17d41ca2-0a57-4721-a64d-1dce8ee9f8a3.png)
+
 ## Створюємо контейнер
 ```
 docker swarm init
 docker stack deploy -c ~/Grafana-Prometheus/docker-compose.yml monitoring
 
 ```
+![Screenshot from 2022-05-28 13-25-04](https://user-images.githubusercontent.com/59205554/170821383-c7b83426-26be-4875-9de8-2139c32370ab.png)
+
+![Screenshot from 2022-05-28 13-25-13](https://user-images.githubusercontent.com/59205554/170821366-794d7c42-8f30-43fb-8281-30aa0b98c5b5.png)
+
 ## 
