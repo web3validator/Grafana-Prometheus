@@ -45,4 +45,10 @@ docker stack deploy -c ~/Grafana-Prometheus/docker-compose.yml monitoring
 
 ![Screenshot from 2022-05-28 13-25-13](https://user-images.githubusercontent.com/59205554/170821366-794d7c42-8f30-43fb-8281-30aa0b98c5b5.png)
 
-## 
+## Провіряємо чи запустилися контейнери
+```
+docker ps
+
+```
+![Screenshot from 2022-05-28 13-32-10](https://user-images.githubusercontent.com/59205554/170821618-ef4fe2fc-5d82-4b98-b178-9f1b42de1a58.png)
+
