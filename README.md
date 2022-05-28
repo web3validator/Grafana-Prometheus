@@ -50,5 +50,6 @@ docker stack deploy -c ~/Grafana-Prometheus/docker-compose.yml monitoring
 docker ps
 
 ```
-![Screenshot from 2022-05-28 13-32-10](https://user-images.githubusercontent.com/59205554/170821618-ef4fe2fc-5d82-4b98-b178-9f1b42de1a58.png)
+
+![Screenshot from 2022-05-28 13-35-21](https://user-images.githubusercontent.com/59205554/170821748-022e38d8-d824-465a-8979-334cff2ca31f.png)
 
