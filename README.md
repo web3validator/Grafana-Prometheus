@@ -98,5 +98,6 @@ wget https://grafana.com/api/dashboards/1860/revisions/27/download
 * Натискаємо Load
 * Вибираємо у виділинці Prometheus  prometheus і натискаємо import
 
+![Знімок екрану з 2022-05-29 09-08-55](https://user-images.githubusercontent.com/59205554/170854729-83123b9a-23fa-44db-a2c2-c232ca9a3d08.png)
 
 
