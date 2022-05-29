@@ -17,7 +17,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 ![Image text](https://github.com/cybernekit/RouterSetupGuide/blob/main/img/Screenshot%20from%202022-05-17%2016-49-11.png)
 ## Устанавливаем docker
-(не обязательно если установленный docker)
+(не обов'язково якщо встановлений docker)
 ```
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -89,7 +89,7 @@ google-chrome $Your_ip_address:3000
 Через браузері:
 https://grafana.com/api/dashboards/1860/revisions/27/download
 
-Через командній строці:
+Через командну строку:
 ```
 wget https://grafana.com/api/dashboards/1860/revisions/27/download
 ```
