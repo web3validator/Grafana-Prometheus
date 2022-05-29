@@ -54,13 +54,13 @@ docker ps
 ![Screenshot from 2022-05-28 13-35-21](https://user-images.githubusercontent.com/59205554/170821748-022e38d8-d824-465a-8979-334cff2ca31f.png)
 
 ## Тепер ми заходимо в графану 
-Відкриваємо google на своєму компютері або на сервері
+Відкриваємо google на своєму компютері або на сервері. 
 
-### Водимо адрес
+### Водимо адрес через браузер
 
 * http://<IP_address>:3000
 
-Через командну строку 
+### Відкриваємо адрес через командну строку 
 ```
 Your_ip_address=
 ```
@@ -69,31 +69,34 @@ google-chrome $Your_ip_address:3000
 
 ```
 
-Водимо login -> admin i password -> admin і після цього водимо новий пароль
-Ось що ви побачите
+### Водимо login -> admin i password -> admin і після цього водимо новий пароль
+Після цього ви будете в графані
 
-Слідуєм послідовності налаштування -> add data source -> Prometheus
+![Знімок екрану з 2022-05-28 20-21-33](https://user-images.githubusercontent.com/59205554/170854500-9ef1d80c-6d52-47e8-a5e2-ceda1089cff3.png)
 
-У строці URL водимо http://prometheus:9090
-f
-Зберігаємо
-f
 
-Далі завантажуємо json файл за цією адресою
 
+### Слідуєм послідовності налаштування -> add data source -> Prometheus
+![Знімок екрану з 2022-05-28 20-27-50](https://user-images.githubusercontent.com/59205554/170854513-8c596b84-5bd8-4721-bac5-e9b4f654b6d6.png)
+
+* У строці URL водимо http://prometheus:9090
+* Зберігаємо
+
+![Знімок екрану з 2022-05-28 20-27-58](https://user-images.githubusercontent.com/59205554/170854532-39963456-30ee-4dd6-9912-725ae2b425f7.png)
+
+
+## Далі завантажуємо json файл за цією адресою
+* Через браузері:
 https://grafana.com/api/dashboards/1860/revisions/27/download
 
-якщо через командну стромку
-
+* Через командній строці:
 wget https://grafana.com/api/dashboards/1860/revisions/27/download
 
-Заходимо знову в grafana клацаєм dashbord -> manage -> import
+### Заходимо знову в grafana і слідуєм вже такій послідовності dashbord -> manage -> import
 
-Вставляємо в Import via panel json весь скопійований файл
-
-Натискаємо Load
-
-Вибираємо в Prometheus prometheus і натискаємо імпорт
+* Вставляємо в ```Import via panel json``` весь скопійований файл
+* Натискаємо Load
+* Вибираємо у виділинці Prometheus  prometheus і натискаємо import
 
 
 
