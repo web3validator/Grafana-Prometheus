@@ -53,3 +53,47 @@ docker ps
 
 ![Screenshot from 2022-05-28 13-35-21](https://user-images.githubusercontent.com/59205554/170821748-022e38d8-d824-465a-8979-334cff2ca31f.png)
 
+## Тепер ми заходимо в графану 
+Відкриваємо google на своєму компютері або на сервері
+
+###Водимо адрес
+
+*http://<IP_address>:3000
+
+Через командну строку 
+```
+Your_ip_address=
+```
+```
+google-chrome $Your_ip_address:3000
+
+```
+
+Водимо login -> admin i password -> admin і після цього водимо новий пароль
+Ось що ви побачите
+
+Слідуєм послідовності налаштування -> add data source -> Prometheus
+
+У строці URL водимо http://prometheus:9090
+f
+Зберігаємо
+f
+
+Далі завантажуємо json файл за цією адресою
+
+https://grafana.com/api/dashboards/1860/revisions/27/download
+
+якщо через командну стромку
+
+wget https://grafana.com/api/dashboards/1860/revisions/27/download
+
+Заходимо знову в grafana клацаєм dashbord -> manage -> import
+
+Вставляємо в Import via panel json весь скопійований файл
+
+Натискаємо Load
+
+Вибираємо в Prometheus prometheus і натискаємо імпорт
+
+
+
