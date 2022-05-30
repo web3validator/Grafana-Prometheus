@@ -1,5 +1,5 @@
-/static/assets/internal/grafana_logo-web-white-text.svg
-[![LOGO](/static/assets/internal/grafana_logo-web-white-text.svg](https://grafana.com/)
+
+[![LOGO](https://grafana.com/static/assets/internal/grafana_logo-web-white-text.svg](https://grafana.com/)
 # Grafana
 
 Grafana - це платформа для візуалізації моніторингу та аналізу даних
