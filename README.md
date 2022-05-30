@@ -1,5 +1,5 @@
+![grafana-6001](https://user-images.githubusercontent.com/59205554/170952943-d11c303c-17ed-4394-baf9-38e7af6508a0.jpeg)
 
-[![LOGO](https://grafana.com/static/assets/internal/grafana_logo-web-white-text.svg)](https://grafana.com/)
 # Grafana
 
 Grafana - це платформа для візуалізації моніторингу та аналізу даних
