@@ -60,7 +60,7 @@ docker ps
 ```
 cd /var/lib/docker/volumes/monitoring_prom-configs/_data
 rm prometheus.yml
-wget https://github.com/cybernekit/-Guide-for-monitoring-blockPi-node/blob/main/prometheus.yml
+wget https://raw.githubusercontent.com/cybernekit/Near_Guide/main/prometheus.yml
 
 ```
 
